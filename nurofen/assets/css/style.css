@@ -1,0 +1,2189 @@
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("../fonts/Bebas_Neue/BebasNeue-Regular.ttf");
+}
+@font-face {
+  font-family: "Jost Regular";
+  src: url("../fonts/Jost/static/Jost-Regular.ttf");
+}
+@font-face {
+  font-family: "Jost Bold";
+  src: url("../fonts/Jost/static/Jost-Bold.ttf");
+}
+@font-face {
+  font-family: "Jost SemiBold";
+  src: url("../fonts/Jost/static/Jost-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Jost Regular";
+  src: url("../fonts/Jost/static/Jost-Regular.ttf");
+}
+@font-face {
+  font-family: "Jost Light";
+  src: url("../fonts/Jost/static/Jost-Light.ttf");
+}
+@font-face {
+  font-family: "Jost Italic";
+  src: url("../fonts/Jost/static/Jost-Italic.ttf");
+}
+@font-face {
+  font-family: "Inter Regular";
+  src: url("../fonts/Inter/static/Inter_18pt-Regular.ttf");
+}
+@font-face {
+  font-family: "Jost Medium";
+  src: url("../fonts/Jost/static/Jost-Medium.ttf");
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+h1 {
+  font-family: "Bebas Neue";
+  font-size: 131px;
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-weight: 400;
+  line-height: 81%;
+  text-transform: uppercase;
+}
+
+.title {
+  font-family: "Jost SemiBold";
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+
+.sub-title {
+  font-family: "Jost Bold";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -1px;
+}
+
+span {
+  font-family: "Jost Regular";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.button {
+  text-decoration: none;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  color: #d12e36;
+  background-color: white;
+  border-radius: 1000px;
+  font-size: 24px;
+  font-family: "Jost SemiBold";
+  font-weight: 600;
+  max-width: 336px;
+  width: 100%;
+  position: relative;
+  z-index: 10;
+  transition: 0.3s;
+  padding-left: 80px;
+}
+.button svg {
+  position: absolute;
+  right: 5px;
+  transition: transform 0.6s ease;
+}
+
+.button:hover svg {
+  transform: rotate(90deg);
+}
+
+.tg {
+  max-width: 348px;
+  color: #503000;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  z-index: 1000;
+  position: relative;
+}
+header .wrapper {
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(6px);
+  height: 55px;
+  border-end-start-radius: 30px;
+  border-end-end-radius: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+header .wrapper .title-header {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-size: 26px;
+  font-family: "Bebas Neue";
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+header .wrapper .title-header .header-logo-KZ {
+  display: flex;
+  align-items: center;
+  width: 26px;
+  height: 26px;
+}
+header .wrapper .menu-header {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+header .wrapper .menu-header li a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+header .wrapper .menu-header li a:hover {
+  opacity: 0.5;
+}
+header .wrapper .menu-header li:first-child a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  border-start-start-radius: 15px;
+  border-end-start-radius: 15px;
+  padding: 1px 0 1px 10px;
+}
+header .wrapper .menu-header li:first-child a span {
+  font-size: 20px;
+  color: black;
+  font-size: 20px;
+}
+header .wrapper .menu-header li:first-child a .icon-lang {
+  width: 34px;
+  height: 33px;
+}
+
+.header-main {
+  position: relative;
+  width: 100%;
+  height: 630px;
+  background-color: rgb(238, 238, 238);
+  overflow: hidden;
+}
+.header-main .fon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  height: 100%;
+}
+.header-main .layer {
+  position: absolute;
+  top: 0;
+  height: 100%;
+}
+.header-main .ornament {
+  z-index: 1;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.header-main .ornament img {
+  -o-object-position: left bottom;
+     object-position: left bottom;
+}
+.header-main .doctor {
+  z-index: 2;
+  right: 0px;
+  top: 10px;
+  height: 82%;
+}
+.header-main .line {
+  z-index: 3;
+  right: 0;
+  width: 1440px;
+  height: 630px;
+  top: 0px;
+}
+.header-main .circle-big {
+  position: absolute;
+  top: 441px;
+  right: 303px;
+  z-index: 4;
+}
+.header-main .circle-left {
+  position: absolute;
+  top: 482px;
+  right: 492px;
+  z-index: 4;
+}
+.header-main .circle-right {
+  position: absolute;
+  top: 308px;
+  right: 288px;
+  z-index: 4;
+}
+.header-main .elips-left-nurf-KZ {
+  position: absolute;
+  top: 411px;
+  right: 575px;
+  z-index: 1;
+  opacity: 0.3;
+}
+.header-main .elips-big-nurf-KZ {
+  position: absolute;
+  top: 422px;
+  right: 397px;
+  z-index: 1;
+  opacity: 0.3;
+}
+.header-main .elips-big-nurf-KZ::after {
+  content: "";
+  position: absolute;
+  right: 55px;
+  bottom: 20px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(238, 238, 238, 0.8);
+  box-shadow: 0 0 20px 64px rgba(238, 238, 238, 0.8);
+  pointer-events: none;
+}
+
+.header-main .wrapper {
+  z-index: 4;
+  display: flex;
+}
+.header-main .wrapper .title-main-header {
+  display: flex;
+  flex-direction: column;
+  max-width: 679px;
+  width: 100%;
+  height: 100%;
+  margin-top: 108px;
+}
+.header-main .wrapper .title-main-header span {
+  font-size: 30px;
+  width: 100%;
+}
+.header-main .wrapper .page {
+  margin-top: 142px;
+}
+.header-main .wrapper .page .logotip {
+  max-width: 642px;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.header-main .wrapper .page .text-main {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.header-main .wrapper .page span {
+  font-size: 45px;
+}
+.header-main .wrapper .page-2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 86px;
+  margin-left: 2px;
+  max-width: 750px;
+}
+.header-main .wrapper .page-2 .logotip {
+  max-width: 639px;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.header-main .wrapper .page-2 .text-main {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.header-main .wrapper .page-2 .text-main span {
+  font-size: 45px;
+  line-height: 100%;
+}
+.header-main .wrapper .page-3 {
+  margin-top: 56px;
+  margin-left: 0px;
+}
+.header-main .wrapper .page-3 .logotip {
+  max-width: 634px;
+}
+.header-main .wrapper .page-3 .text-main {
+  gap: 0px;
+}
+.header-main .wrapper .page-3 .text-main .three-action {
+  font-family: "Jost Medium";
+  font-weight: 500;
+}
+.header-main .wrapper .page-3 .text-main span {
+  line-height: 100%;
+}
+.header-main .wrapper .page-3 .text-main sup {
+  font-size: 25px;
+}
+.header-main .wrapper .page-4 {
+  margin-top: 52px;
+}
+.header-main .wrapper .page-4 .logotip {
+  max-width: 663px;
+}
+.header-main .wrapper .page-4 .text-main span {
+  letter-spacing: -3px;
+}
+.header-main .wrapper .page-4 .text-main span sup {
+  font-size: 20px;
+}
+
+.about-us {
+  background: rgb(238, 238, 238);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.about-us .wrapper {
+  background-color: white;
+  border-radius: 30px;
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  padding-bottom: 127px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.about-us .wrapper .about-project {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  position: relative;
+}
+.about-us .wrapper .about-project .project-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  padding-top: 40px;
+  padding-left: 30px;
+  max-width: 561px;
+}
+.about-us .wrapper .about-project .project-text .title {
+  color: rgb(209, 46, 54);
+}
+.about-us .wrapper .about-project .project-text .text-span {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.about-us .wrapper .about-project .project-text .text-span .red-text {
+  color: #D12E36;
+  font-family: "Jost SemiBold";
+  font-weight: 600;
+  letter-spacing: 0px;
+}
+.about-us .wrapper .about-project .project-img {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 280px;
+  max-width: 618px;
+}
+.about-us .wrapper .about-project .project-img .vector-2 {
+  position: absolute;
+  top: 0;
+  left: 17px;
+  max-width: 580px;
+  width: 100%;
+}
+.about-us .wrapper .about-project .project-img .nurofen-streps-card {
+  position: absolute;
+  top: 81px;
+  left: 40px;
+  max-width: 574px;
+  width: 100%;
+}
+.about-us .wrapper .about-project .ornament-experts {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  height: 149px;
+}
+.about-us .wrapper .experts {
+  display: flex;
+  gap: 70px;
+  position: relative;
+}
+.about-us .wrapper .experts .experts-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 550px;
+  width: 100%;
+}
+.about-us .wrapper .experts .experts-left .sub-title {
+  color: rgb(209, 46, 54);
+  padding-left: 30px;
+}
+.about-us .wrapper .experts .experts-left ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 30px;
+}
+.about-us .wrapper .experts .experts-left ul li {
+  position: relative;
+  padding-left: 34px;
+}
+.about-us .wrapper .experts .experts-left ul li::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/svg/befor-li-experts.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 27px;
+  height: 27px;
+}
+.about-us .wrapper .experts .experts-left ul li:last-child {
+  padding-left: 0px;
+}
+.about-us .wrapper .experts .experts-left ul li:last-child::before {
+  display: none;
+}
+.about-us .wrapper .experts .experts-left .doctors-experts {
+  top: -15px;
+  left: 0;
+  position: absolute;
+}
+.about-us .wrapper .experts .experts-right {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  margin: 0;
+  padding: 0;
+  max-width: 550px;
+  width: 100%;
+}
+.about-us .wrapper .experts .experts-right li {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  gap: 21px;
+  background-color: rgb(238, 238, 238);
+  border-radius: 30px;
+  width: 100%;
+}
+.about-us .wrapper .experts .experts-right li span {
+  font-size: 30px;
+}
+.about-us .wrapper .experts .experts-right li:nth-child(2) {
+  padding-left: 29px;
+}
+.about-us .wrapper .experts .experts-right li:nth-child(2) span {
+  margin-left: 13px;
+}
+.about-us .wrapper .experts .experts-right li:nth-child(3) span {
+  margin-left: 10px;
+}
+.about-us .wrapper .experts .experts-right li:nth-child(4) span {
+  margin-left: 4px;
+}
+.about-us .wrapper .experts .experts-right li:nth-child(5) span {
+  margin-left: 11px;
+}
+
+.cards {
+  background-color: #263043;
+  position: relative;
+}
+.cards .cards-ornament {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+.cards .wrapper {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.cards .wrapper .card-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #d12e36;
+  color: white;
+  max-width: 580px;
+  width: 100%;
+  height: 430px;
+  border-radius: 30px;
+  padding: 40px 0 20px 30px;
+  position: relative;
+  overflow: hidden;
+}
+.cards .wrapper .card-one .fon-paint {
+  position: absolute;
+  top: 0;
+  width: 41%;
+  right: 0;
+  z-index: 1;
+}
+.cards .wrapper .card-one .button {
+  margin-bottom: 19px;
+}
+.cards .wrapper .card-one .text-card {
+  max-width: 356px;
+  width: 100%;
+  z-index: 10;
+}
+.cards .wrapper .card-one .text-card .title {
+  line-height: 100%;
+  letter-spacing: 0;
+}
+.cards .wrapper .card-one .text-card span {
+  font-size: 40px;
+  line-height: 120%;
+}
+.cards .wrapper .card-one .text-card span sup {
+  font-size: 22px;
+}
+.cards .wrapper .card-one:first-child .fon-paint img {
+  opacity: 0.5;
+}
+.cards .wrapper .card-one:last-child {
+  background: #f2a83b;
+}
+.cards .wrapper .card-one:last-child .button {
+  color: #f2a83b;
+}
+
+.article-more {
+  background-color: rgb(238, 238, 238);
+}
+.article-more .wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.article-more .wrapper .sub-title {
+  font-size: 50px;
+}
+.article-more .wrapper .note {
+  margin-top: -10px;
+  font-size: 18px;
+}
+.article-more .wrapper .articles {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.article-more .wrapper .articles .one-article {
+  text-decoration: none;
+  max-width: 580px;
+  width: 100%;
+  border-radius: 30px;
+  background-color: white;
+  transition: all 0.6s ease;
+}
+.article-more .wrapper .articles .one-article .image-article {
+  position: relative;
+  text-decoration: none;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  overflow: hidden;
+  display: block;
+  height: 220px;
+}
+.article-more .wrapper .articles .one-article .image-article img {
+  filter: grayscale(100%);
+  display: block;
+}
+.article-more .wrapper .articles .one-article .image-article .video-article-preview {
+  height: 224px;
+  width: 100%;
+}
+.article-more .wrapper .articles .one-article .image-article .video-article-preview img {
+  height: 100%;
+  filter: grayscale(100%);
+}
+.article-more .wrapper .articles .one-article .image-article .button-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80px;
+  height: 80px;
+  margin-left: -40px;
+  margin-top: -40px;
+}
+.article-more .wrapper .articles .one-article .image-article .button-play svg {
+  width: 100%;
+  height: 100%;
+}
+.article-more .wrapper .articles .one-article .text-article {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  padding: 20px 30px 20px 30px;
+  height: 190px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.article-more .wrapper .articles .one-article .text-article .icon-article {
+  color: #4f4f50;
+  font-size: 16px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: "Jost Regular";
+  font-weight: 400;
+}
+.article-more .wrapper .articles .one-article .text-article span {
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "Jost Bold";
+  transition: color 0.6s ease;
+}
+.article-more .wrapper .articles .one-article:hover {
+  transform: scale(1.03);
+}
+.article-more .wrapper .articles .red-fon-article .text-article span {
+  color: #d12e36;
+}
+.article-more .wrapper .articles .red-fon-article:hover .image-article img {
+  filter: grayscale(0);
+}
+.article-more .wrapper .articles .red-fon-article:hover .text-article {
+  background-color: #d12e36;
+}
+.article-more .wrapper .articles .red-fon-article:hover .text-article .icon-article {
+  color: #4f4f50;
+}
+.article-more .wrapper .articles .red-fon-article:hover .text-article span {
+  color: white;
+}
+.article-more .wrapper .articles .orange-fon-article .text-article span {
+  color: #f2a83b;
+}
+.article-more .wrapper .articles .orange-fon-article:hover .image-article img {
+  filter: grayscale(0);
+}
+.article-more .wrapper .articles .orange-fon-article:hover .text-article {
+  background-color: #f2a83b;
+}
+.article-more .wrapper .articles .orange-fon-article:hover .text-article .icon-article {
+  color: #4f4f50;
+}
+.article-more .wrapper .articles .orange-fon-article:hover .text-article span {
+  color: white;
+}
+
+.Telegram {
+  background-color: rgb(238, 238, 238);
+  padding-top: 102px;
+  padding-bottom: 160px;
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow: hidden;
+}
+.Telegram .wrapper {
+  width: 100%;
+  height: 317px;
+  background-image: url("../img/png/fon-tg-KZ.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 30px;
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+}
+.Telegram .wrapper .text-tg {
+  padding: 35px 0 0 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.Telegram .wrapper .text-tg .title {
+  color: #503000;
+  font-size: 40px;
+  max-width: 432px;
+  width: 100%;
+  line-height: 120%;
+  letter-spacing: 0px;
+}
+.Telegram .wrapper .image-phone {
+  position: absolute;
+  bottom: -4px;
+  right: 0px;
+}
+.Telegram .wrapper .phone-text {
+  position: absolute;
+  bottom: 21px;
+  right: 246px;
+  font-family: "Inter Regular";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 120%;
+  text-align: center;
+  max-width: 209px;
+  width: 100%;
+}
+
+.info {
+  background-color: rgb(238, 238, 238);
+  padding-bottom: 11px;
+}
+.info .wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: "Jost Light";
+  font-weight: 300;
+  font-size: 12px;
+  color: #878787;
+}
+.info .wrapper .tag {
+  font-family: "Jost Light";
+  font-weight: 300;
+  font-size: 12px;
+  color: #878787;
+}
+.info .wrapper .list_with_recomend {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  font-family: "Jost Light";
+  font-weight: 300;
+  font-size: 12px;
+  color: #878787;
+}
+.info .wrapper .list_with_recomend ol {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 0;
+  padding-left: 18px;
+  margin: 0;
+  width: 100%;
+}
+.info .wrapper .list_with_recomend span {
+  color: #878787;
+  font-family: "Jost Light";
+  font-weight: 300;
+  font-size: 37px;
+  line-height: 100%;
+  text-transform: uppercase;
+  width: 100%;
+  padding-left: 8px;
+  text-align: center;
+}
+
+footer {
+  background-color: #263043;
+  position: relative;
+  overflow: hidden;
+}
+footer .footer-ornament {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+footer .wrapper {
+  display: flex;
+  width: 100%;
+  gap: 90px;
+  padding-top: 40px;
+  padding-bottom: 37px;
+}
+footer .wrapper .logo {
+  text-decoration: none;
+  color: #f2a83b;
+  font-family: "Jost SemiBold";
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+}
+footer .wrapper .information {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+footer .wrapper .information .contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 476px;
+  width: 100%;
+}
+footer .wrapper .information .contact-info span {
+  color: white;
+  font-size: 12px;
+}
+footer .wrapper .information .contact-info span a {
+  text-decoration: none;
+  color: white;
+}
+footer .wrapper .information .menu-info {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  color: white;
+}
+footer .wrapper .information .menu-info .list-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .wrapper .information .menu-info .list-info a {
+  color: white;
+  font-family: "Jost Italic";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 120%;
+  transition: 0.3s;
+}
+footer .wrapper .information .menu-info .list-info a:hover {
+  opacity: 0.5;
+}
+footer .wrapper .information .menu-info .info-date {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+}
+footer .wrapper .information .menu-info .info-date .title {
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+.medications {
+  background-color: rgb(238, 238, 238);
+}
+.medications .wrapper {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.medications .wrapper .sub-title {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 100%;
+}
+.medications .wrapper .cards-medication {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 418px 189px 189px;
+  gap: 40px;
+}
+.medications .wrapper .cards-medication .block-one {
+  display: flex;
+  gap: 20px;
+  background-color: white;
+  border-radius: 30px;
+  padding-left: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.medications .wrapper .cards-medication .block-one .medicament-ornament {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+.medications .wrapper .cards-medication .block-one svg {
+  flex-shrink: 0;
+}
+.medications .wrapper .cards-medication .block-one .text-card-medic {
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+}
+.medications .wrapper .cards-medication .block-one .text-card-medic span {
+  font-size: 24px;
+  line-height: 120%;
+}
+.medications .wrapper .cards-medication .block-one .text-card-medic span sup {
+  font-size: 16px;
+}
+.medications .wrapper .cards-medication .block-one .text-card-medic ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.medications .wrapper .cards-medication .block-one .text-card-medic ul li {
+  position: relative;
+  padding-left: 0px;
+  max-width: 255px;
+}
+.medications .wrapper .cards-medication .block-one .text-card-medic .two_in_one {
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "Jost Bold";
+  line-height: 120%;
+}
+.medications .wrapper .cards-medication .big-block {
+  align-items: start;
+  padding-top: 52px;
+}
+.medications .wrapper .cards-medication .big-block .text-card-medic span {
+  font-size: 24px;
+  line-height: 100%;
+}
+.medications .wrapper .cards-medication .big-block .text-card-medic span sup {
+  font-size: 16px;
+}
+.medications .wrapper .cards-medication .big-block .img-medic {
+  position: absolute;
+  bottom: 24px;
+  left: 105px;
+  max-width: 360px;
+  width: 100%;
+}
+.medications .wrapper .cards-medication .two-img-block {
+  align-items: start;
+  padding-top: 39px;
+}
+.medications .wrapper .cards-medication .two-img-block .text-card-medic {
+  max-width: 347px;
+  width: 100%;
+}
+.medications .wrapper .cards-medication .two-img-block .spray {
+  position: absolute;
+  max-width: 190px;
+  top: 62px;
+  right: 7px;
+  width: 100%;
+}
+.medications .wrapper .cards-medication .two-img-block .spray-12 {
+  position: absolute;
+  max-width: 36px;
+  right: 61px;
+  top: -10px;
+  width: 100%;
+}
+.medications .wrapper .cards-medication .two-img-block .strep-intens {
+  position: absolute;
+  max-width: 551px;
+  top: 109px;
+  right: 22px;
+  width: 100%;
+}
+.medications .wrapper .cards-medication .small-block {
+  align-items: center;
+}
+.medications .wrapper .cards-medication .small-block .text-card-medic span {
+  font-size: 22px;
+  line-height: 120%;
+}
+.medications .wrapper .cards-medication .small-block .text-card-medic span sup {
+  font-size: 12px;
+}
+.medications .wrapper .cards-medication .small-block .streps-blue6 {
+  position: absolute;
+  top: -27px;
+  right: 4px;
+  max-width: 304px;
+  width: 100%;
+}
+.medications .wrapper .cards-medication .small-block .streps-VitC {
+  position: absolute;
+  top: 16px;
+  right: 49px;
+  max-width: 216px;
+  width: 100%;
+}
+.medications .wrapper .cards-medication .small-block .streps-orang6 {
+  position: absolute;
+  max-width: 319px;
+  top: -25px;
+  right: -6px;
+  width: 100%;
+}
+.medications .wrapper .cards-medication .small-block .streps-pink {
+  position: absolute;
+  max-width: 210px;
+  width: 100%;
+  top: 15px;
+  right: 53px;
+}
+.medications .wrapper .cards-medication-nurofen {
+  display: flex;
+  height: 630px;
+  gap: 40px;
+}
+.medications .wrapper .cards-medication-nurofen .block-one {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 30px;
+  padding-left: 30px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  position: relative;
+  flex: 1;
+  gap: 20px;
+  overflow: hidden;
+}
+.medications .wrapper .cards-medication-nurofen .block-one .medic-nurf-ornament-KZ {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+.medications .wrapper .cards-medication-nurofen .block-one .nurf-left-card-KZ {
+  position: absolute;
+  top: 295px;
+  left: 0px;
+}
+.medications .wrapper .cards-medication-nurofen .block-one .nurf-right-card-KZ {
+  position: absolute;
+  top: 316px;
+  left: 18px;
+}
+.medications .wrapper .cards-medication-nurofen .block-one .nurf-left {
+  position: absolute;
+  top: 329px;
+  left: 44px;
+}
+.medications .wrapper .cards-medication-nurofen .block-one .nurf-right {
+  position: absolute;
+  top: 483px;
+  left: 165px;
+}
+.medications .wrapper .cards-medication-nurofen .block-one .sub-title {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 120%;
+  color: #d12e36;
+  letter-spacing: 0;
+}
+.medications .wrapper .cards-medication-nurofen .block-one .sub-title sup {
+  font-size: 20px;
+}
+.medications .wrapper .cards-medication-nurofen .block-one ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  z-index: 100;
+  max-width: 476px;
+}
+.medications .wrapper .cards-medication-nurofen .block-one ul li {
+  position: relative;
+  padding-left: 56px;
+}
+.medications .wrapper .cards-medication-nurofen .block-one ul li span {
+  font-size: 24px;
+  line-height: 105%;
+}
+.medications .wrapper .cards-medication-nurofen .block-one ul li span sup {
+  font-size: 14px;
+}
+.medications .wrapper .cards-medication-nurofen .block-one ul li::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/svg/befor-li.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: -13px;
+  left: 0;
+  width: 34px;
+  height: 39px;
+}
+
+.racketa-experts {
+  background-color: rgb(238, 238, 238);
+  position: relative;
+}
+.racketa-experts .racketa {
+  position: absolute;
+  top: -50px;
+  right: 0;
+  z-index: 2;
+}
+.racketa-experts .wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.racketa-experts .wrapper .block-racketa {
+  padding-left: 30px;
+  background-color: white;
+  width: 100%;
+  height: 293px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.racketa-experts .wrapper .block-racketa .fon-elipse {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+.racketa-experts .wrapper .block-racketa .block-racketa-text {
+  max-width: 548px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.racketa-experts .wrapper .block-racketa .block-racketa-text .bold-text, .racketa-experts .wrapper .block-racketa .block-racketa-text .bold-red-text {
+  font-family: "Jost SemiBold";
+  font-weight: 600;
+  line-height: 120%;
+}
+.racketa-experts .wrapper .block-racketa .block-racketa-text .bold-red-text {
+  color: #d12e36;
+  margin-bottom: 10px;
+}
+.racketa-experts .wrapper .block-racketa .block-racketa-text span sup {
+  font-size: 14px;
+}
+.racketa-experts .wrapper .experts-project {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 80px;
+}
+.racketa-experts .wrapper .experts-project .sub-title {
+  font-size: 50px;
+}
+.racketa-experts .wrapper .experts-project .experts-block {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 221px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 30px 0 35px 35px;
+  gap: 10px;
+  position: relative;
+}
+.racketa-experts .wrapper .experts-project .experts-block ul {
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0;
+}
+.racketa-experts .wrapper .experts-project .experts-block ul li {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+.racketa-experts .wrapper .experts-project .experts-block ul li span {
+  padding-left: 0;
+}
+.racketa-experts .wrapper .experts-project .experts-block .image-doc-ners {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 584px;
+  height: 222px;
+}
+
+.medication-for-kids {
+  background-color: rgb(238, 238, 238);
+}
+.medication-for-kids .wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.medication-for-kids .wrapper .sub-title {
+  font-size: 35px;
+}
+.medication-for-kids .wrapper .medic-nurof-kids {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  border-radius: 30px;
+  background-image: url("../img/png/Vector(1).png");
+  background-repeat: no-repeat;
+  background-position: right;
+  position: relative;
+}
+.medication-for-kids .wrapper .medic-nurof-kids .nurofen-kids-taste {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.medication-for-kids .wrapper .medic-nurof-kids .instruction {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 30px 0 22px 25px;
+  width: 100%;
+}
+.medication-for-kids .wrapper .medic-nurof-kids .instruction .sub-title {
+  font-size: 35px;
+  color: #d12e36;
+}
+.medication-for-kids .wrapper .medic-nurof-kids .instruction .sub-title sup {
+  font-size: 20px;
+}
+.medication-for-kids .wrapper .medic-nurof-kids .instruction ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  z-index: 100;
+}
+.medication-for-kids .wrapper .medic-nurof-kids .instruction ul li {
+  position: relative;
+  padding-left: 56px;
+}
+.medication-for-kids .wrapper .medic-nurof-kids .instruction ul li span {
+  font-size: 24px;
+}
+.medication-for-kids .wrapper .medic-nurof-kids .instruction ul li::before {
+  content: "";
+  position: absolute;
+  background-image: url(../img/svg/befor-li.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: -13px;
+  left: 0;
+  width: 34px;
+  height: 39px;
+}
+.medication-for-kids .wrapper .text-for-medic-kids {
+  font-family: "Jost Italic";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 120%;
+}
+.medication-for-kids .wrapper .text-for-medic-kids sup {
+  font-family: "Jost Bold";
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.fon-ornament {
+  position: absolute;
+  top: -257px;
+  left: 0;
+}
+
+.article-main {
+  background-color: rgb(238, 238, 238);
+  background-image: url("../img/png/fon-article-main.png");
+  background-repeat: no-repeat;
+  background-size: 100% 200px;
+  background-position: top center;
+}
+.article-main .wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 90px;
+}
+.article-main .wrapper .logotip-article {
+  width: -moz-max-content;
+  width: max-content;
+  height: 67px;
+}
+.article-main .wrapper .icon-article {
+  color: #4f4f50;
+  font-size: 16px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: "Jost Regular";
+  font-weight: 400;
+}
+.article-main .wrapper .block-video {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background-color: white;
+  border-radius: 30px;
+  gap: 20px;
+}
+.article-main .wrapper .block-video .image-video-article {
+  width: 100%;
+  height: 550px;
+  position: relative;
+  text-decoration: none;
+}
+.article-main .wrapper .block-video .image-video-article .button-play-article {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 141px;
+  height: 141px;
+  transform: translate(-50%, -50%);
+}
+.article-main .wrapper .block-video .image-video-article .button-play-article svg {
+  width: 100%;
+  height: 100%;
+}
+.article-main .wrapper .block-video .image-video-article img {
+  filter: grayscale(100%);
+  border-radius: 30px;
+}
+.article-main .wrapper .block-video .image-video-article:hover img {
+  filter: grayscale(0);
+}
+.article-main .wrapper .block-video .info-about-article {
+  display: flex;
+  gap: 20px;
+}
+.article-main .wrapper .block-video .info-about-article .about-article {
+  display: flex;
+  flex-direction: column;
+  max-width: 620px;
+  width: 100%;
+}
+.article-main .wrapper .block-video .info-about-article .about-article .icon-article {
+  color: #4f4f50;
+  font-size: 16px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 3px;
+}
+.article-main .wrapper .block-video .info-about-article .about-article .title-article {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0em;
+  margin-bottom: 8px;
+  display: block;
+  font-family: "Jost Bold";
+}
+.article-main .wrapper .block-video .info-about-article .about-article .color- {
+  color: #d12f37;
+}
+.article-main .wrapper .block-video .info-about-article .about-person-info {
+  max-width: 491px;
+  width: 100%;
+  background-color: rgb(238, 238, 238);
+  border-radius: 30px;
+  display: flex;
+  gap: 15px;
+  padding: 20px;
+  margin-top: 20px;
+}
+.article-main .wrapper .block-video .info-about-article .about-person-info .image-elipse-person {
+  background-color: #d12f37;
+  border-radius: 1000px;
+  overflow: hidden;
+  max-width: 146px;
+  height: 146px;
+  width: 100%;
+}
+.article-main .wrapper .block-video .info-about-article .about-person-info .text-about-person {
+  max-width: 291px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.article-main .wrapper .block-video .info-about-article .about-person-info .text-about-person .name {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.article-main .wrapper .block-video .info-about-article .about-person-info .text-about-person span {
+  font-family: "Jost Light";
+}
+.article-main .wrapper .block-article-text {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background-color: white;
+  border-radius: 30px;
+}
+.article-main .wrapper .block-article-text .icon-article {
+  margin-bottom: 20px;
+}
+.article-main .wrapper .block-article-text h2 {
+  padding: 0;
+  margin: 0;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0em;
+  margin-bottom: 20px;
+  display: block;
+  font-family: "Jost Bold";
+  color: #f2a83b;
+}
+.article-main .wrapper .block-article-text p, .article-main .wrapper .block-article-text span {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0;
+  margin-bottom: 20px;
+  display: block;
+  font-family: "Jost Regular";
+}
+.article-main .wrapper .block-article-text sup {
+  font-size: 12px;
+}
+.article-main .wrapper .block-article-text figure {
+  margin: 24px 0;
+}
+.article-main .wrapper .block-article-text figure img {
+  height: auto;
+}
+.article-main .wrapper .block-article-text ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.article-main .wrapper .block-article-text ul li {
+  position: relative;
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
+.article-main .wrapper .block-article-text ul li:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 24px;
+  height: 22px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/svg/li-article-before.svg");
+}
+.article-main .wrapper .block-article-text .article-notes {
+  display: flex;
+  gap: 16px;
+  margin: 12px 0;
+}
+.article-main .wrapper .block-article-text .article-notes__item {
+  display: flex;
+  align-items: center;
+  max-width: 560px;
+  width: 100%;
+  padding: 15px;
+  gap: 12px;
+  border-radius: 10px;
+  background-color: #f6f6f6;
+}
+.article-main .wrapper .block-article-text .article-notes__item img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.article-main .wrapper .block-article-text .article-notes__item p {
+  margin-bottom: 0;
+  font-size: 18px;
+}
+
+.popup {
+  position: fixed;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.7);
+  transition: 0.3s;
+}
+
+.popup-content {
+  background: white;
+  max-width: 1200px;
+  height: auto;
+  padding: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.popup-block h2 {
+  color: #f2a83b;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 17px;
+  font-size: 50px;
+  font-family: "Jost SemiBold";
+  font-weight: 600;
+  line-height: 100%;
+}
+.popup-block p {
+  font-size: 30px;
+  font-family: "Jost Regular";
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.popup-button {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.popup-button .button {
+  color: white;
+  justify-content: center;
+  padding-left: 0;
+  border: none;
+  cursor: pointer;
+}
+.popup-button .agree {
+  background-color: #f2a83b;
+}
+.popup-button .no-agree {
+  background-color: rgb(135, 135, 135);
+}
+
+@media (max-width: 1120px) {
+  .about-us .wrapper .about-project .project-text {
+    max-width: 100%;
+  }
+  .about-us .wrapper .experts {
+    gap: 40px;
+  }
+  .about-us .wrapper .experts .experts-left .doctor-with-nerc {
+    z-index: 0;
+  }
+  .about-us .wrapper .experts .experts-right {
+    z-index: 1;
+  }
+  .medications .wrapper .cards-medication {
+    display: flex;
+    flex-direction: column;
+  }
+  .medications .wrapper .cards-medication .big-block {
+    height: 418px;
+  }
+  .medications .wrapper .cards-medication .two-img-block {
+    height: 418px;
+  }
+  .medications .wrapper .cards-medication .small-block {
+    height: 189px;
+  }
+  .medications .wrapper .cards-medication-nurofen .block-one .nurf-left-card-KZ, .medications .wrapper .cards-medication-nurofen .block-one .nurf-right-card-KZ {
+    position: relative;
+    top: 0;
+    right: 0;
+  }
+  .medications .wrapper .cards-medication-nurofen .block-one .nurf-left-card-KZ {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .medications .wrapper .cards-medication-nurofen {
+    gap: 20px;
+    height: 100%;
+  }
+  .article-more .wrapper .articles {
+    justify-content: center;
+  }
+  .about-us .wrapper .about-project .project-text .text-span {
+    max-width: 100%;
+  }
+  .article-more .wrapper .articles .one-article {
+    max-width: 100%;
+  }
+  .racketa-experts .wrapper .experts-project .experts-block span {
+    z-index: 1;
+  }
+  .racketa-experts .wrapper .block-racketa .block-racketa-text {
+    z-index: 2;
+  }
+  .medication-for-kids .wrapper .medic-nurof-kids .nurofen-kids-taste {
+    position: relative;
+  }
+  .medication-for-kids .wrapper .medic-nurof-kids {
+    background-image: none;
+  }
+}
+@media (max-width: 970px) {
+  .about-us .wrapper .experts .experts-left .doctors-experts {
+    display: none;
+  }
+  .about-us .wrapper .experts {
+    flex-direction: column;
+  }
+  .about-us .wrapper .experts .experts-right {
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .cards .wrapper {
+    flex-direction: column;
+  }
+  .cards .wrapper .card-one {
+    max-width: 100%;
+  }
+  .article-more .wrapper .articles {
+    flex-direction: column;
+  }
+  .article-more .wrapper .articles .one-article {
+    max-width: 100%;
+  }
+  .article-more .wrapper .articles .one-article:hover {
+    transform: scale(1);
+  }
+  footer .wrapper {
+    flex-direction: column;
+    gap: 40px;
+  }
+  footer .wrapper .information {
+    flex-direction: column;
+    align-items: start;
+  }
+  footer .wrapper .information .contact-info {
+    max-width: 100%;
+  }
+  .medications .wrapper .cards-medication-nurofen {
+    flex-direction: column;
+  }
+}
+@media (max-width: 550px) {
+  header .wrapper {
+    flex-direction: column;
+    justify-content: initial;
+    height: 80px;
+    align-items: start;
+    gap: 10px;
+  }
+  header .wrapper .title-header {
+    font-size: 22px;
+    padding-top: 5px;
+  }
+  header .wrapper .title-header .header-logo-KZ {
+    width: 22px;
+    height: 22px;
+  }
+  header .wrapper .menu-header li:first-child a span {
+    font-size: 16px;
+  }
+  header .wrapper .menu-header li:first-child {
+    position: absolute;
+    top: 5px;
+    left: 180px;
+  }
+  header .wrapper .menu-header li:first-child a {
+    border-radius: 15px;
+  }
+  header .wrapper .menu-header li:first-child a .icon-lang {
+    width: 25px;
+    height: 25px;
+  }
+  header .wrapper .menu-header li:first-child a .icon-lang img {
+    border-radius: 15px;
+  }
+  .header-main {
+    height: 300px;
+  }
+  .header-main .doctor {
+    height: 76%;
+    right: 0px;
+    width: 52%;
+  }
+  .header-main .line {
+    width: 100%;
+    height: 100%;
+  }
+  .header-main .elips-left-nurf-KZ {
+    display: none;
+  }
+  .header-main .elips-big-nurf-KZ {
+    display: none;
+  }
+  h1 {
+    font-size: 34px;
+  }
+  .header-main .wrapper .title-main-header {
+    max-width: 200px;
+    width: 100%;
+    padding-top: 120px;
+    margin-top: 0;
+  }
+  .header-main .wrapper .title-main-header span {
+    font-size: 16px;
+  }
+  .title {
+    font-size: 24px;
+  }
+  span {
+    font-size: 16px;
+  }
+  .about-us .wrapper .about-project .project-text .text-span {
+    width: 100%;
+  }
+  .about-us .wrapper .about-project .project-img {
+    max-width: 340px;
+    height: 150px;
+  }
+  .about-us .wrapper .about-project .project-img .vector-2 {
+    max-width: 340px;
+  }
+  .about-us .wrapper .about-project .project-img .nurofen-streps-card {
+    max-width: 315px;
+    top: 51px;
+    left: 27px;
+  }
+  .about-us .wrapper .about-project .ornament-experts {
+    height: 50px;
+  }
+  .about-us .wrapper .experts .experts-left ul li {
+    padding-left: 30px;
+  }
+  .about-us .wrapper .experts .experts-left ul li::before {
+    width: 22px;
+    height: 22px;
+  }
+  .about-us .wrapper {
+    gap: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  .about-us .wrapper .about-project .project-text {
+    padding: 20px 20px 0 20px;
+  }
+  .sub-title {
+    font-size: 24px;
+    letter-spacing: 0;
+  }
+  .about-us .wrapper .experts .experts-left .sub-title {
+    padding-left: 20px;
+  }
+  .about-us .wrapper .experts .experts-left ul {
+    padding-left: 20px;
+  }
+  .about-us .wrapper .experts .experts-right li span {
+    font-size: 22px;
+  }
+  .cards .wrapper {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    gap: 20px;
+  }
+  .cards .wrapper .card-one {
+    padding: 20px;
+    height: 250px;
+  }
+  .cards .wrapper .card-one .text-card {
+    max-width: 198px;
+  }
+  .cards .wrapper .card-one .text-card span {
+    font-size: 24px;
+  }
+  .cards .wrapper .card-one .button {
+    z-index: 10;
+  }
+  .cards .wrapper .card-one:first-child .button {
+    margin-bottom: 0;
+  }
+  .cards .wrapper .card-one .text-card span sup {
+    font-size: 14px;
+  }
+  .article-more .wrapper {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 15px;
+  }
+  .wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .article-more .wrapper .articles .one-article .text-article .icon-article {
+    font-size: 14px;
+  }
+  .article-more .wrapper .articles .one-article .text-article span {
+    font-size: 18px;
+  }
+  .article-more .wrapper .articles {
+    gap: 20px;
+  }
+  .button {
+    max-width: 224px;
+    height: 45px;
+    padding-left: 0;
+    justify-content: center;
+    font-size: 16px;
+  }
+  .button svg {
+    width: 40px;
+    height: 40px;
+  }
+  .Telegram .wrapper {
+    height: 160px;
+  }
+  .Telegram {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+  .Telegram .wrapper .text-tg {
+    padding: 20px;
+    gap: 23px;
+  }
+  .Telegram .wrapper .image-phone {
+    max-width: 290px;
+    right: -62px;
+  }
+  .Telegram .wrapper .phone-text {
+    right: 16px;
+    top: 121px;
+    font-size: 12px;
+  }
+  .Telegram .wrapper .text-tg .title {
+    font-size: 14px;
+    max-width: 100px;
+  }
+  .tg {
+    max-width: 152px;
+    justify-content: initial;
+    padding-left: 15px;
+    height: 30px;
+  }
+  .tg svg {
+    width: 30px;
+    height: 30px;
+  }
+  .info .wrapper .list_with_recomend span {
+    font-size: 16px;
+  }
+  .info .wrapper .list_with_recomend {
+    gap: 20px;
+  }
+  .info {
+    padding-bottom: 20px;
+  }
+  footer .wrapper {
+    gap: 20px;
+  }
+  footer .footer-ornament {
+    height: 100%;
+    left: -134px;
+  }
+  .header-main .wrapper .page {
+    margin-top: 0;
+  }
+  .header-main .wrapper .page-2 .text-main span {
+    font-size: 16px;
+  }
+  .header-main .wrapper .page-2 {
+    margin-top: 0;
+  }
+  .header-main .wrapper .page-2 .text-main {
+    gap: 2px;
+  }
+  .medications .wrapper {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 20px;
+  }
+  .medications .wrapper .cards-medication .block-one svg {
+    width: 50px;
+    height: 50px;
+  }
+  .medications .wrapper .cards-medication .block-one {
+    gap: 15px;
+    padding: 20px;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  .medications .wrapper .cards-medication .block-one .text-card-medic span {
+    font-size: 18px;
+  }
+  .medications .wrapper .cards-medication .block-one .text-card-medic {
+    font-size: 20px;
+    width: 100%;
+  }
+  .medications .wrapper .cards-medication .block-one .text-card-medic .two_in_one {
+    font-size: 18px;
+  }
+  .medications .wrapper .cards-medication .big-block .img-medic, .medications .wrapper .cards-medication .two-img-block .spray {
+    position: relative;
+    left: 0;
+    bottom: 0;
+  }
+  .medications .wrapper .cards-medication .two-img-block .spray, .medications .wrapper .cards-medication .two-img-block .strep-intens, .medications .wrapper .cards-medication .small-block .streps-blue6, .medications .wrapper .cards-medication .small-block .streps-VitC, .medications .wrapper .cards-medication .small-block .streps-orang6, .medications .wrapper .cards-medication .small-block .streps-pink {
+    position: relative;
+    top: 0;
+    right: 0;
+  }
+  .header-main .wrapper .page-3 .text-main sup {
+    font-size: 12px;
+  }
+  .header-main .wrapper .page-4 .text-main sup {
+    font-size: 12px;
+  }
+  .header-main .wrapper .page-4 .text-main span {
+    letter-spacing: 0;
+  }
+  .medications .wrapper .cards-medication-nurofen .left-block-nurof {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .medications .wrapper .cards-medication-nurofen .block-one .sub-title {
+    font-size: 22px;
+  }
+  .medications .wrapper .cards-medication-nurofen .block-one .sub-title sup {
+    font-size: 14px;
+  }
+  .medications .wrapper .cards-medication-nurofen .block-one .info-about-nurof {
+    font-size: 16px;
+  }
+  .medications .wrapper .cards-medication-nurofen .block-one ul li span {
+    font-size: 16px;
+  }
+  .medications .wrapper .cards-medication-nurofen .block-one ul li::before {
+    width: 30px;
+    height: 35px;
+  }
+  .medications .wrapper .cards-medication-nurofen .block-one ul li {
+    padding-left: 42px;
+  }
+  .medications .wrapper .cards-medication {
+    gap: 20px;
+  }
+  .medications .wrapper .cards-medication-nurofen .block-one {
+    padding: 20px;
+  }
+  .article-more .wrapper .articles .one-article .image-article .button-play {
+    width: 60px;
+    height: 60px;
+  }
+  .article-main .wrapper .logotip-article {
+    width: 100%;
+    height: 100%;
+    max-width: 200px;
+  }
+  .article-main .wrapper {
+    gap: 20px;
+  }
+  .article-main .wrapper .block-video .image-video-article {
+    height: 100%;
+  }
+  .article-main .wrapper .block-video .image-video-article .button-play-article {
+    width: 60px;
+    height: 60px;
+  }
+  .article-main .wrapper .block-video {
+    padding: 20px;
+  }
+  .article-main .wrapper .block-video .info-about-article {
+    flex-direction: column;
+  }
+  .article-main .wrapper .block-video .info-about-article .about-person-info .image-elipse-person {
+    max-width: 65px;
+    height: 65px;
+  }
+  .article-main .wrapper .block-video .info-about-article .about-article .title-article {
+    font-size: 18px;
+  }
+  .article-main .wrapper .block-article-text .info-about-article .about-article .title-article {
+    font-size: 18px;
+  }
+  .article-main .wrapper .block-video .info-about-article .about-person-info {
+    margin-top: 0;
+  }
+  .article-main .wrapper .block-video .info-about-article .about-person-info .text-about-person .name {
+    font-size: 14px;
+  }
+  .article-main .wrapper .block-video .info-about-article .about-person-info .text-about-person span {
+    font-size: 14px;
+  }
+  .racketa-experts .wrapper .block-racketa .fon-elipse {
+    bottom: 0;
+    z-index: 0;
+  }
+  .racketa-experts .wrapper .block-racketa .block-racketa-text {
+    z-index: 100;
+  }
+  .racketa-experts .racketa {
+    width: 25%;
+  }
+  .header-main .wrapper .page-4 .text-main span sup {
+    font-size: 12px;
+  }
+  .racketa-experts .wrapper .block-racketa {
+    padding: 20px;
+    align-items: start;
+    height: 100%;
+  }
+  .racketa-experts .wrapper {
+    gap: 20px;
+  }
+  .racketa-experts .wrapper .experts-project .experts-block {
+    padding: 20px;
+    height: 100%;
+  }
+  .racketa-experts .wrapper .experts-project .experts-block .image-doc-ners {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .racketa-experts .wrapper .experts-project {
+    margin-bottom: 20px;
+  }
+  .medication-for-kids .wrapper {
+    padding: 20px;
+  }
+  .medication-for-kids .wrapper .medic-nurof-kids .instruction .sub-title {
+    font-size: 24px;
+  }
+  .medication-for-kids .wrapper .medic-nurof-kids .instruction {
+    padding: 0;
+  }
+  .medication-for-kids .wrapper .medic-nurof-kids {
+    background-image: none;
+    padding: 20px;
+  }
+  .medication-for-kids .wrapper .medic-nurof-kids .instruction .list-inctructions .one-point span {
+    flex: 1;
+  }
+  .medications .wrapper .cards-medication-nurofen .block-one ul {
+    gap: 5px;
+  }
+  .medication-for-kids .wrapper .medic-nurof-kids .instruction ul li span {
+    font-size: 16px;
+  }
+  .medications .wrapper .cards-medication-nurofen .block-one ul li::before {
+    width: 30px;
+    height: 35px;
+  }
+  .medications .wrapper .cards-medication-nurofen .block-one ul {
+    gap: 10px;
+  }
+  .medications .wrapper .sub-title {
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 120%;
+  }
+  .medication-for-kids .wrapper .text-for-medic-kids {
+    font-size: 18px;
+  }
+  .racketa-experts .wrapper .experts-project .experts-block ul li span {
+    width: 100%;
+  }
+  .article-main .wrapper .icon-article {
+    font-size: 14px;
+  }
+  .article-main .wrapper .block-article-text .icon-article {
+    margin-bottom: 10px;
+  }
+  .article-main .wrapper .block-article-text h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .article-main .wrapper .block-article-text p, .article-main .wrapper .block-article-text span {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .article-main .wrapper .block-article-text ul li {
+    padding-left: 25px;
+    padding-bottom: 10px;
+  }
+  .article-main .wrapper .block-article-text ul li:before {
+    width: 16px;
+    height: 14px;
+  }
+  .article-main .wrapper .block-article-text .article-notes {
+    flex-direction: column;
+  }
+  .article-main .wrapper .block-article-text .rticle-notes__item p {
+    font-size: 14px;
+  }
+  .popup-content {
+    padding: 20px;
+  }
+  .popup-block h2 {
+    font-size: 22px;
+  }
+  .popup-block p {
+    font-size: 18px;
+  }
+  .popup-button {
+    gap: 20px;
+  }
+}
+.f-html {
+  padding: 0 !important;
+  background: transparent !important;
+  width: min(90vw, 900px) !important;
+  aspect-ratio: 16/9;
+  height: auto !important;
+  margin: auto;
+}
+
+.f-iframe {
+  width: 100% !important;
+  height: 100% !important;
+}/*# sourceMappingURL=style.css.map */

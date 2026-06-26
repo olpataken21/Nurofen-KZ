@@ -1,0 +1,545 @@
+# Copyright (C) 2026 Your Name
+# This file is distributed under the same license as the Nurofen theme.
+msgid ""
+msgstr ""
+"Project-Id-Version: Nurofen 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/nurofen\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Uzbek\n"
+"Language: uz_UZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-06-23T02:24:28+00:00\n"
+"PO-Revision-Date: 2026-06-23 12:00+0000\n"
+"X-Generator: WP-CLI 2.12.0\n"
+
+#. Theme Name of the theme
+#: style.css
+msgid "Nurofen"
+msgstr "Nurofen"
+
+#. Author of the theme
+#: style.css
+msgid "Your Name"
+msgstr "Your Name"
+
+#: footer.php:6
+msgid "За дополнительной информацией обращаться: <a href=\"#\">contact@reckitt.su</a>"
+msgstr "Qo'shimcha ma'lumot uchun murojaat qiling: <a href=\"#\">contact@reckitt.su</a>"
+
+#: footer.php:7
+msgid "Информация предназначена для медицинских  работников."
+msgstr "Ushbu ma'lumot tibbiyot xodimlari uchun mo'ljallangan."
+
+#: footer.php:8
+msgid "Предоставляя данную информацию, ООО «Рекитт Бенкизер Хэлскэр», Россия, 115114, г. Москва, Шлюзовая набережная 4, этаж 3, не рассчитывает на первоочередную рекомендацию своей продукции и не требует передачи информации о продукции компании пациентам."
+msgstr "Ushbu ma'lumotni taqdim etish orqali «Rekitt Benkizer Helsker» MChJ, Rossiya, 115114, Moskva sh., Shlyuzovaya naberejnaya 4, 3-qavat o'z mahsulotini birinchi navbatda tavsiya qilishni ko'zlamaydi va kompaniya mahsuloti haqidagi ma'lumotni bemorlarga yetkazishni talab qilmaydi."
+
+#: footer.php:12
+msgid "Политика по использованию файлов cookie"
+msgstr "Cookie-fayllardan foydalanish siyosati"
+
+#: footer.php:13
+msgid "Политика в отношении обработки персональных данных"
+msgstr "Shaxsiy ma'lumotlarni qayta ishlash siyosati"
+
+#: footer.php:14
+msgid "Пользовательское соглашение"
+msgstr "Foydalanuvchi kelishuvi"
+
+#: footer.php:17
+msgid "© 2026, Все права защищены"
+msgstr "© 2026, Barcha huquqlar himoyalangan"
+
+#: footer.php:31
+msgid "Данный сайт содержит профессиональную специализированную информацию"
+msgstr "Ushbu sayt professional ixtisoslashtirilgan ma'lumotlarni o'z ichiga oladi"
+
+#: footer.php:32
+msgid "Согласно действующему законодательству, данные материалы могут быть доступны только медицинским работникам. Я подтверждаю, что являюсь специалистом с медицинским образованием, и информация, полученная на сайте, будет использоваться мною только в профессиональной деятельности."
+msgstr "Amaldagi qonunchilikka ko'ra, ushbu materiallar faqat tibbiyot xodimlariga taqdim etilishi mumkin. Men tibbiy ma'lumotga ega mutaxassis ekanligimni tasdiqlayman va saytda olingan ma'lumotdan faqat professional faoliyatimda foydalanaman."
+
+#: footer.php:36
+msgid "Подтверждаю"
+msgstr "Tasdiqlayman"
+
+#: footer.php:42
+msgid "Не подтверждаю"
+msgstr "Tasdiqlamayman"
+
+#: front-page.php:20
+msgid "Образовательный проект для врачей, посвященный комплексной защите<br> от простудных заболеваний"
+msgstr "Shamollash kasalliklaridan kompleks himoya mavzusidagi<br> shifokorlar uchun ta'lim loyihasi"
+
+#: front-page.php:29
+msgid "О проекте"
+msgstr "Loyiha haqida"
+
+#: front-page.php:31
+msgid " Подход к терапии ОРВИ включает симптоматическое лечение с учетом клинических проявлений и состояния пациента<sup>1</sup>."
+msgstr " ORVI terapiyasiga yondashuv bemorning klinik ko'rinishlari va holatini hisobga olgan holda simptomatik davolashni o'z ichiga oladi<sup>1</sup>."
+
+#: front-page.php:32
+msgid "Благодаря различным формам препаратов и широким линейкам брендов Стрепсилс® и Нурофен® охватываются основные симптомы ОРВИ и ключевые потребности пациента."
+msgstr "Strepsils® va Nurofen® brendlarining turli shakllari va keng mahsulot qatorlari tufayli ORVI ning asosiy simptomlari va bemorning muhim ehtiyojlari qamrab olinadi."
+
+#: front-page.php:53
+#: page-nurofen-kids.php:44
+msgid "Эксперты проекта:"
+msgstr "Loyiha ekspertlari:"
+
+#: front-page.php:62
+#: page-nurofen-kids.php:49
+msgid "доктора медицинских наук"
+msgstr "tibbiyot fanlari doktorlari"
+
+#: front-page.php:71
+#: page-nurofen-kids.php:52
+msgid "профессора"
+msgstr "professorlar"
+
+#: front-page.php:80
+msgid "заслуженные врачи в Республике Узбекистан,<br>Российской Федерации"
+msgstr "O'zbekiston Respublikasi va<br>Rossiya Federatsiyasining xizmat ko'rsatgan shifokorlari"
+
+#: front-page.php:82
+#: page-nurofen-kids.php:57
+msgid "которые будут делиться своим практическим опытом на сайте"
+msgstr "saytda o'z amaliy tajribalari bilan bo'lishadilar"
+
+#: front-page.php:98
+msgid "лихорадка"
+msgstr "isitma"
+
+#: front-page.php:111
+msgid "головная боль"
+msgstr "bosh og'rig'i"
+
+#: front-page.php:118
+msgid "боль в горле"
+msgstr "tomoq og'rig'i"
+
+#: front-page.php:131
+msgid "кашель"
+msgstr "yo'tal"
+
+#: front-page.php:138
+msgid "заложенность носа"
+msgstr "burun tiqilib qolishi"
+
+#: front-page.php:149
+msgid "Тройное действие: "
+msgstr "Uch tomonlama ta'sir: "
+
+#: front-page.php:150
+msgid "против жара, боли и воспаления<sup>2</sup>"
+msgstr "isitma, og'riq va yallig'lanishga qarshi<sup>2</sup>"
+
+#: front-page.php:153
+#: front-page.php:171
+msgid "Подробнее"
+msgstr "Batafsil"
+
+#: front-page.php:167
+msgid "Подход<br> к борьбе"
+msgstr "Tomoq og'rig'iga qarshi<br> kurashishga yondashuv"
+
+#: front-page.php:168
+msgid "с болью в горле, основанный на науке"
+msgstr "ilmiy asoslangan"
+
+#: front-page.php:187
+msgid "Последние материалы"
+msgstr "So'nggi materiallar"
+
+#: front-page.php:199
+msgid "Министерство здравоохранения Республики Узбекистан. Национальные клинические протоколы по нозологии «Грипп и другие ОРВИ», Ташкент 2025"
+msgstr "O'zbekiston Respublikasi Sog'liqni saqlash vazirligi. «Gripp va boshqa ORVI» nosologiyasi bo'yicha milliy klinik protokollar, Toshkent 2025"
+
+#: front-page.php:200
+msgid "Согласно инструкциям по медицинскому применению препаратов Нурофен® в форме таблеток, покрытых оболочкой, 200 мг, DV/X 03693/11/17, Нурофен® Экспресс, капсулы, 200 мг, DV/X 03942/01/18, Нурофен® Экспресс Форте капсулы 400 мг, DV/X 11037/08/25, Нурофен® для детей, суспензия для приема внутрь [апельсиновая, клубничная]. DV/X 02705/02/17"
+msgstr "Nurofen® qoplangan tabletkalar, 200 mg, DV/X 03693/11/17, Nurofen® Express kapsulalari, 200 mg, DV/X 03942/01/18, Nurofen® Express Forte kapsulalari 400 mg, DV/X 11037/08/25, Nurofen® bolalar uchun ichki qabul qilish suspenziyasi [apelsin, qulupnay]. DV/X 02705/02/17 preparatlarining tibbiy qo'llanish bo'yicha ko'rsatmalariga muvofiq"
+
+#: front-page.php:202
+#: page-nurofen-kids.php:157
+#: page-nurofen.php:99
+#: page-strepsils.php:162
+#: single.php:291
+msgid "ТОЛЬКО для медицинских и фармацевтических работников"
+msgstr "FAQAT tibbiyot va farmatsevtika xodimlari uchun"
+
+#: header.php:19
+msgid "УЗ"
+msgstr "O'Z"
+
+#: header.php:21
+msgid "Язык"
+msgstr "Til"
+
+#: inc/article-more-section.php:3
+msgid "Материалы проекта"
+msgstr "Loyiha materiallari"
+
+#: inc/article-more-section.php:5
+msgid "Читайте и смотрите статьи и видео."
+msgstr "Maqolalar va videolarni o'qing va tomosha qiling."
+
+#: inc/article-more-section.php:29
+#: single.php:114
+msgid "Статья"
+msgstr "Maqola"
+
+#: inc/article-more-section.php:75
+#: single.php:72
+msgid "Видео"
+msgstr "Video"
+
+#: inc/article-more-section.php:85
+msgid "Скоро выйдет новый материал"
+msgstr "Tez orada yangi material chiqadi"
+
+#: inc/article-more-section.php:88
+msgid "Скоро выйдет новый материал!"
+msgstr "Tez orada yangi material chiqadi!"
+
+#: inc/telegram-section.php:5
+msgid "Подписывайтесь<br> на наш Telegram-канал ShamollashStop"
+msgstr "ShamollashStop Telegram-kanalimizga<br> obuna bo'ling"
+
+#: inc/telegram-section.php:7
+msgid "Подписаться"
+msgstr "Obuna bo'lish"
+
+#: inc/telegram-section.php:19
+msgid "Отсканируйте, чтобы присоединиться"
+msgstr "Qo'shilish uchun skanerlang"
+
+#: index.php:9
+#: page.php:10
+msgid "Контент не найден"
+msgstr "Kontent topilmadi"
+
+#: page-nurofen-kids.php:23
+#: page-nurofen.php:24
+msgid "Тройное действие:"
+msgstr "Uch tomonlama ta'sir:"
+
+#: page-nurofen-kids.php:24
+msgid "Против жара, боли и воспаления<sup>1</sup>"
+msgstr "Isitma, og'riq va yallig'lanishga qarshi<sup>1</sup>"
+
+#: page-nurofen-kids.php:37
+msgid "Нурофен<sup style=\"font-size: 16px;\">®</sup> для детей<span>— препарат для детей, обладающий тройным действием: жаропонижающим, обезболивающим и противовоспалительным<sup >1.</sup></span>"
+msgstr "Nurofen<sup style=\"font-size: 16px;\">®</sup> bolalar uchun<span>— uch tomonlama ta'sirga ega bolalar preparati: isitmani pasaytiruvchi, og'riqni bartaraf etuvchi va yallig'lanishga qarshi<sup >1.</sup></span>"
+
+#: page-nurofen-kids.php:38
+msgid "Активен через 15 минут<sup>2</sup> и действует до 8 часов<sup>3.</sup>"
+msgstr "15 daqiqadan keyin faollashadi<sup>2</sup> va 8 soatgacha ta'sir qiladi<sup>3.</sup>"
+
+#: page-nurofen-kids.php:40
+msgid "Обеспечивает точное дозирование с мерным шприцем в комплекте. Не содержит сахара, искусственных красителей и парабенов."
+msgstr "Komplektidagi o'lchov shpritsi bilan aniq dozalashni ta'minlaydi. Shakar, sun'iy bo'yoqlar va parabenlarni o'z ichiga olmaydi."
+
+#: page-nurofen-kids.php:55
+msgid "заслуженные врачи в Республике Узбекистан, <br>Российской Федерации,"
+msgstr "O'zbekiston Respublikasi va <br>Rossiya Federatsiyasining xizmat ko'rsatgan shifokorlari,"
+
+#: page-nurofen-kids.php:69
+msgid "Нурофен для детей позволяет соблюдать четкое<br> дозирование, учитывая возраст и вес ребенка"
+msgstr "Nurofen bolalar uchun bolaning yoshi va vaznini hisobga olgan holda<br> aniq dozalashni ta'minlaydi"
+
+#: page-nurofen-kids.php:72
+msgid "Суспензия для приема <br>внутрь с 3 месяцев<sup>1</sup>"
+msgstr "3 oydan boshlab ichki qabul qilish<br> suspenziyasi<sup>1</sup>"
+
+#: page-nurofen-kids.php:79
+msgid "Тройное действие: против жара, <br>боли и воспаления"
+msgstr "Uch tomonlama ta'sir: isitma, <br>og'riq va yallig'lanishga qarshi"
+
+#: page-nurofen-kids.php:86
+msgid "Активен через 15 минут<sup>2</sup> и до 8 часов<sup>3</sup> <br>против жара и боли"
+msgstr "15 daqiqadan keyin faollashadi<sup>2</sup> va isitma va og'riqqa qarshi<br>8 soatgacha ta'sir qiladi<sup>3</sup>"
+
+#: page-nurofen-kids.php:98
+msgid "Большой флакон — подходит <br>для семьи, где несколько детей"
+msgstr "Katta shisha — bir nechta bolasi bo'lgan<br> oilalar uchun mos"
+
+#: page-nurofen-kids.php:110
+msgid "Не содержит: искусственные красители, <br>сахар, парабены"
+msgstr "O'z ichiga olmaydi: sun'iy bo'yoqlar, <br>shakar, parabenlar"
+
+#: page-nurofen-kids.php:117
+msgid "Доступная цена<sup>4</sup>"
+msgstr "Arzon narx<sup>4</sup>"
+
+#: page-nurofen-kids.php:123
+msgid "Клубника"
+msgstr "Qulupnay"
+
+#: page-nurofen-kids.php:124
+msgid "100 мл / 150 мл"
+msgstr "100 ml / 150 ml"
+
+#: page-nurofen-kids.php:128
+msgid "Апельсин"
+msgstr "Apelsin"
+
+#: page-nurofen-kids.php:129
+msgid "150 мл"
+msgstr "150 ml"
+
+#: page-nurofen-kids.php:133
+msgid "Другие лекарственные препараты Нурофен<sup>®</sup>, <br>которые могут применяться у детей старше 6 лет"
+msgstr "6 yoshdan katta bolalarda qo'llanilishi mumkin bo'lgan<br>boshqa Nurofen<sup>®</sup> dori-darmonlari"
+
+#: page-nurofen-kids.php:134
+msgid "Нурофен"
+msgstr "Nurofen"
+
+#: page-nurofen-kids.php:152
+msgid "Инструкция по медицинскому применению препарата Нурофен® для детей, суспензия для приема внутрь [апельсиновая, клубничная]. DV/X 02705/02/17. Фарм. группа: НПВП."
+msgstr "Nurofen® bolalar uchun ichki qabul qilish suspenziyasi [apelsin, qulupnay] preparatining tibbiy qo'llanish bo'yicha ko'rsatmasi. DV/X 02705/02/17. Farm. guruhi: NSAID."
+
+#: page-nurofen-kids.php:153
+msgid "После приема препарата натощак у взрослых ибупрофен обнаруживается в плазме крови через 15 минут. Инструкция по медицинскому применению препарата Нурофен® для детей, суспензия для приема внутрь [апельсиновая, клубничная]. DV/X 02705/02/17. Фарм. группа: НПВП."
+msgstr "Kattalarda preparatni och qoringa qabul qilgandan so'ng ibuprofen 15 daqiqada qon plazmasida aniqlanadi. Nurofen® bolalar uchun ichki qabul qilish suspenziyasi [apelsin, qulupnay] preparatining tibbiy qo'llanish bo'yicha ko'rsatmasi. DV/X 02705/02/17. Farm. guruhi: NSAID."
+
+#: page-nurofen-kids.php:154
+msgid "Действие препарата продолжается до 8 часов. Инструкция по медицинскому применению препарата Нурофен® для детей, суспензия для приема внутрь [апельсиновая, клубничная]. DV/X 02705/02/17. Фарм. группа: НПВП."
+msgstr "Preparat ta'siri 8 soatgacha davom etadi. Nurofen® bolalar uchun ichki qabul qilish suspenziyasi [apelsin, qulupnay] preparatining tibbiy qo'llanish bo'yicha ko'rsatmasi. DV/X 02705/02/17. Farm. guruhi: NSAID."
+
+#: page-nurofen-kids.php:155
+msgid "Средняя розничная цена Нурофен® для детей, Реккит Бенкизер (Великобритания), сусп. д/внутр. прим. 100 мг/5 мл фл. 100 мл, клубничная (средняя цена за период МАТ Февраль 2026: 42 106,10) на 37% девшевле чем Ибуфен® Д, Польфарма (Польша), сусп. оральн. 100 мг/5 мл фл. пластик. 100 мл, со шприцем-дозатором, #1(средняя цена за период МАТ Февраль 2026: 57 525,38) за период март'25 - февраль'26 по данным ТОО \"Проксима Ресерч\" в Узбекистане."
+msgstr "Nurofen® bolalar uchun, Rekitt Benkizer (Buyuk Britaniya), ichki qabul qilish suspenziyasi 100 mg/5 ml, 100 ml shisha, qulupnay (MAT Fevral 2026 davri uchun o'rtacha narx: 42 106,10) Ibufen® D, Polfarma (Polsha), og'iz orqali qabul qilish suspenziyasi 100 mg/5 ml, plastik 100 ml shisha, dozator shprit bilan, #1 (MAT Fevral 2026 davri uchun o'rtacha narx: 57 525,38) dan mart'25 - fevral'26 davrida O'zbekistonda «Proxima Research» MChJ ma'lumotlariga ko'ra 37% arzonroq."
+
+#: page-nurofen.php:25
+msgid "Против жара, боли и воспаления<sup>1-3</sup>"
+msgstr "Isitma, og'riq va yallig'lanishga qarshi<sup>1-3</sup>"
+
+#: page-nurofen.php:35
+#: page-strepsils.php:43
+#: single.php:133
+msgid "Препараты"
+msgstr "Preparatlar"
+
+#: page-nurofen.php:39
+msgid "Нурофен<sup>®1</sup>"
+msgstr "Nurofen<sup>®1</sup>"
+
+#: page-nurofen.php:40
+msgid "Ибупрофен, 200 мг, таблетки,<br> покрытые оболочкой "
+msgstr "Ibuprofen, 200 mg, qoplangan<br> tabletkalar "
+
+#: page-nurofen.php:42
+msgid "Против <br>жара, боли <br>и воспаления"
+msgstr "Isitma, <br>og'riq <br>va yallig'lanishga qarshi"
+
+#: page-nurofen.php:43
+msgid "От боли и жара<br> при простуде<br> и гриппе"
+msgstr "Shamollash va grippdagi<br> og'riq va isitmadan<br>"
+
+#: page-nurofen.php:44
+msgid "С 6 лет"
+msgstr "6 yoshdan"
+
+#: page-nurofen.php:51
+msgid "Нурофен<sup>®</sup> Экспресс<sup>2</sup> "
+msgstr "Nurofen<sup>®</sup> Express<sup>2</sup> "
+
+#: page-nurofen.php:52
+msgid "Ибупрофен, 200 мг, капсулы <br>с жидким действующим веществом"
+msgstr "Ibuprofen, 200 mg, suyuq faol moddali<br> kapsulalar"
+
+#: page-nurofen.php:54
+msgid "Тройное действие:<br> против жара, боли <br>и воспаления"
+msgstr "Uch tomonlama ta'sir:<br> isitma, og'riq <br>va yallig'lanishga qarshi"
+
+#: page-nurofen.php:55
+msgid "Быстрее<sup>6</sup>, чем<br> обычные таблетки<sup>*</sup>"
+msgstr "Oddiy tabletkalarga<sup>*</sup><br> qaraganda tezroq<sup>6</sup>"
+
+#: page-nurofen.php:56
+msgid "Активен уже через <br>10 минут<sup>4</sup>"
+msgstr "Allaqachon <br>10 daqiqadan keyin<sup>4</sup> faollashadi"
+
+#: page-nurofen.php:57
+msgid "С 12 лет"
+msgstr "12 yoshdan"
+
+#: page-nurofen.php:66
+msgid " Нурофен<sup>®</sup> Экспресс Форте<sup>3</sup>"
+msgstr " Nurofen<sup>®</sup> Express Forte<sup>3</sup>"
+
+#: page-nurofen.php:67
+msgid "Ибупрофен, 400 мг, капсулы с жидким действующим веществом"
+msgstr "Ibuprofen, 400 mg, suyuq faol moddali kapsulalar"
+
+#: page-nurofen.php:69
+msgid "Тройное действие: против жара,<br> боли и воспаления"
+msgstr "Uch tomonlama ta'sir: isitma,<br> og'riq va yallig'lanishga qarshi"
+
+#: page-nurofen.php:70
+msgid "Двойная доза действующего вещества<sup>5</sup>"
+msgstr "Faol moddaning ikki baravar dozasi<sup>5</sup>"
+
+#: page-nurofen.php:71
+msgid "Быстрее<sup>7</sup> чем обычные таблетки<sup>* </sup>"
+msgstr "Oddiy tabletkalarga<sup>* </sup>qaraganda tezroq<sup>7</sup>"
+
+#: page-nurofen.php:72
+msgid "с 12 лет"
+msgstr "12 yoshdan"
+
+#: page-nurofen.php:88
+#: single.php:280
+msgid "*Обычные таблетки – Нурофен® в форме таблеток, покрытых оболочкой, 200 мг, DV/X 03693/11/17"
+msgstr "*Oddiy tabletkalar – Nurofen® qoplangan tabletkalar, 200 mg, DV/X 03693/11/17"
+
+#: page-nurofen.php:91
+#: single.php:283
+msgid "Согласно листку-вкладышу Нурофен®, таблетки, покрытые оболочкой, 200 мг, DV/X 03693/11/17."
+msgstr "Nurofen® qoplangan tabletkalar, 200 mg, DV/X 03693/11/17 qo'shimcha varaqasiga muvofiq."
+
+#: page-nurofen.php:92
+#: single.php:284
+msgid "Инструкция по медицинскому применению Нурофен® Экспресс, капсулы. Фарм. группа: НПВП. DV/X 03942/01/18"
+msgstr "Nurofen® Express kapsulalari tibbiy qo'llanish bo'yicha ko'rsatma. Farm. guruhi: NSAID. DV/X 03942/01/18"
+
+#: page-nurofen.php:93
+#: single.php:285
+msgid "Инструкция по медицинскому применению Нурофен® Экспресс Форте, капсулы. Фарм. группа: НПВП. DV/X 11037/08/25"
+msgstr "Nurofen® Express Forte kapsulalari tibbiy qo'llanish bo'yicha ko'rsatma. Farm. guruhi: NSAID. DV/X 11037/08/25"
+
+#: page-nurofen.php:94
+#: single.php:286
+msgid "После приема 2 капсул препарата натощак ибупрофен обнаруживается в плазме крови через 10 минут, максимальная концентрация (Сmax) ибупрофена в плазме крови достигается через 30-40 минут, что в два раза быстрее, чем после приема эквивалентной дозы препарата Нурофен®, в лекарственной форме таблетки, покрытые оболочкой 200 мг. Инструкция по медицинскому применению Нурофен® Экспресс, капсулы. Фарм. группа: НПВП.DV/X 03942/01/18."
+msgstr "2 kapsulani och qoringa qabul qilgandan so'ng ibuprofen 10 daqiqada qon plazmasida aniqlanadi, qon plazmasidagi ibuprofenning maksimal konsentratsiyasi (Cmax) 30-40 daqiqada erishiladi, bu Nurofen® qoplangan tabletkalar 200 mg ekvivalent dozasini qabul qilgandan keyingi natijadan ikki baravar tezroq. Nurofen® Express kapsulalari tibbiy qo'llanish bo'yicha ko'rsatma. Farm. guruhi: NSAID. DV/X 03942/01/18."
+
+#: page-nurofen.php:95
+#: single.php:287
+msgid "Нурофен® Экспресс Форте содержит в составе 400,00 мг ибупрофена, что в 2 раза больше, чем в составе Нурофен® Экспресс. Инструкция по медицинскому применению Нурофен® Экспресс, капсулы. Фарм. группа: НПВП. DV/X 03942/01/18. Инструкция по медицинскому применению Нурофен® Экспресс Форте, капсулы. Фарм. группа: НПВП. DV/X 11037/08/25"
+msgstr "Nurofen® Express Forte tarkibida 400,00 mg ibuprofen bor, bu Nurofen® Express tarkibidagi miqdordan 2 baravar ko'p. Nurofen® Express kapsulalari tibbiy qo'llanish bo'yicha ko'rsatma. Farm. guruhi: NSAID. DV/X 03942/01/18. Nurofen® Express Forte kapsulalari tibbiy qo'llanish bo'yicha ko'rsatma. Farm. guruhi: NSAID. DV/X 11037/08/25"
+
+#: page-nurofen.php:96
+#: single.php:288
+msgid "Максимальная концентрация ибупрофена в плазме крови достигается быстрее, чем после приема эквивалентной дозы препарата Нурофен®, 200 мг. Инструкция по медицинскому применению Нурофен® Экспресс, капсулы, 200 мг, DV/X 03942/01/18"
+msgstr "Qon plazmasidagi ibuprofenning maksimal konsentratsiyasi Nurofen® 200 mg ekvivalent dozasini qabul qilgandan keyingi natijaga qaraganda tezroq erishiladi. Nurofen® Express kapsulalari, 200 mg tibbiy qo'llanish bo'yicha ko'rsatma, DV/X 03942/01/18"
+
+#: page-nurofen.php:97
+#: single.php:289
+msgid "Максимальная концентрация ибупрофена в плазме крови достигается быстрее, чем после приема эквивалентной дозы препарата Нурофен®, 200 мг. Инструкция по медицинскому применению Нурофен® Экспресс Форте, капсулы, 400 мг DV/X 11037/08/25"
+msgstr "Qon plazmasidagi ibuprofenning maksimal konsentratsiyasi Nurofen® 200 mg ekvivalent dozasini qabul qilgandan keyingi natijaga qaraganda tezroq erishiladi. Nurofen® Express Forte kapsulalari, 400 mg tibbiy qo'llanish bo'yicha ko'rsatma DV/X 11037/08/25"
+
+#: page-strepsils.php:33
+msgid "Не содержит антибиотик"
+msgstr "Antibiotik o'z ichiga olmaydi"
+
+#: page-strepsils.php:34
+msgid "Рациональный выбор препаратов <br> при боли в горле"
+msgstr "Tomoq og'rig'ida preparatlarni <br> oqilona tanlash"
+
+#: page-strepsils.php:51
+#: single.php:143
+msgid "В составе комбинация двух<br> антисептиков и лидокаина, обладающая двойным действием: антисептическим <br> и анестезирующим<sup>1</sup>"
+msgstr "Tarkibida ikki antiseptik va lidokainning ikki tomonlama ta'sirga ega kombinatsiyasi: antiseptik <br> va anestezik<sup>1</sup>"
+
+#: page-strepsils.php:64
+#: single.php:158
+msgid "Действует независимо<br> от причины воспаления<sup>2,3</sup>"
+msgstr "Yallig'lanish sababidan<br> qat'iy nazar ta'sir qiladi<sup>2,3</sup>"
+
+#: page-strepsils.php:65
+#: single.php:159
+msgid "Не содержит<br> антибиотик<sup>2,3</sup>"
+msgstr "Antibiotik<br> o'z ichiga olmaydi<sup>2,3</sup>"
+
+#: page-strepsils.php:66
+#: single.php:160
+msgid "Флурбипрофен оказывает сильное обезболивающие, жаропонижающие противовоспалительное<br> и противоотечное действие<sup>2,3</sup>"
+msgstr "Flurbiprofen kuchli og'riqqa qarshi, isitmani pasaytiruvchi, yallig'lanishga qarshi<br> va shishga qarshi ta'sir ko'rsatadi<sup>2,3</sup>"
+
+#: page-strepsils.php:67
+#: single.php:161
+msgid "Уменьшает сопутствующий кашель<sup>2</sup>"
+msgstr "Hamroh yo'talni kamaytiradi<sup>2</sup>"
+
+#: page-strepsils.php:82
+#: page-strepsils.php:96
+#: single.php:183
+#: single.php:201
+msgid "2 в 1:"
+msgstr "2 tasi 1 da:"
+
+#: page-strepsils.php:84
+#: single.php:185
+msgid "от боли в горле<sup>4</sup>"
+msgstr "tomoq og'rig'idan<sup>4</sup>"
+
+#: page-strepsils.php:85
+#: single.php:186
+msgid "и заложенности носа<sup>4</sup>"
+msgstr "va burun tiqilib qolishidan<sup>4</sup>"
+
+#: page-strepsils.php:98
+#: single.php:203
+msgid "от боли в горле<sup>5</sup>"
+msgstr "tomoq og'rig'idan<sup>5</sup>"
+
+#: page-strepsils.php:99
+#: single.php:204
+msgid "для поддержки<br> иммунитета<sup>5</sup>"
+msgstr "immunitetni<br> qo'llab-quvvatlash uchun<sup>5</sup>"
+
+#: page-strepsils.php:125
+#: single.php:247
+msgid "При первых симптомах<br> боли в горле<sup>6</sup>"
+msgstr "Tomoq og'rig'ining birinchi<br> belgilarida<sup>6</sup>"
+
+#: page-strepsils.php:126
+#: single.php:248
+msgid "Смягчающее действие<sup>6</sup>"
+msgstr "Yumshatuvchi ta'sir<sup>6</sup>"
+
+#: page-strepsils.php:138
+#: single.php:264
+msgid "При первых симптомах<br> боли в горле<sup>7</sup>"
+msgstr "Tomoq og'rig'ining birinchi<br> belgilarida<sup>7</sup>"
+
+#: page-strepsils.php:139
+#: single.php:265
+msgid "Со вкусом клубники<sup>7</sup>"
+msgstr "Qulupnay ta'mi bilan<sup>7</sup>"
+
+#: page-strepsils.php:140
+#: single.php:266
+msgid "Не содержит сахара<br> в составе<sup>7</sup>"
+msgstr "Tarkibida shakar<br> yo'q<sup>7</sup>"
+
+#: page-strepsils.php:154
+msgid "ОХЛП Стрепсилс® Экспресс таблетки для рассасывания №24, DV/X 03694/11/17."
+msgstr "Strepsils® Express eritish tabletkalari №24 OXLP, DV/X 03694/11/17."
+
+#: page-strepsils.php:155
+msgid "ОХЛП Стрепсилс® Интенсив, таблетки для рассасывания [медово-лимонные] №24, DV/X 08634/02/21."
+msgstr "Strepsils® Intensiv eritish tabletkalari [asal-limon] №24 OXLP, DV/X 08634/02/21."
+
+#: page-strepsils.php:156
+msgid "ОХЛП Стрепсилс® Интенсив, спрей для местного применения дозированный со вкусом вишни и мяты 8,75 мг/доза 15 мл №1 (флаконы), DV/X 10241/11/22."
+msgstr "Strepsils® Intensiv mahalliy qo'llash uchun dozalangan spreyi olcha va yalpiz ta'mi bilan 8,75 mg/doza 15 ml №1 (shishalar) OXLP, DV/X 10241/11/22."
+
+#: page-strepsils.php:157
+msgid "ОХЛП Стрепсилс® с ментолом и эвкалиптом таблетки, для рассасывания ментолово-эвкалиптовые №24, DV/X 03695/11/17."
+msgstr "Strepsils® mentol va evkalipt bilan eritish tabletkalari mentol-evkalipt №24 OXLP, DV/X 03695/11/17."
+
+#: page-strepsils.php:158
+msgid "ОХЛП Стрепсилс® с витамином С таблетки для рассасывания апельсиновые №24, DV/X 04065/02/18."
+msgstr "Strepsils® C vitamini bilan apelsin eritish tabletkalari №24 OXLP, DV/X 04065/02/18."
+
+#: page-strepsils.php:159
+msgid "ОХЛП Стрепсилс® с медом и лимоном таблетки для рассасывания медово-лимонные №24, DV/X 03696/11/17."
+msgstr "Strepsils® asal va limon bilan eritish tabletkalari asal-limon №24 OXLP, DV/X 03696/11/17."
+
+#: page-strepsils.php:160
+msgid "ОХЛП Стрепсилс® таблетки для рассасывания клубничные №16, DV/X 03697/11/17."
+msgstr "Strepsils® qulupnay eritish tabletkalari №16 OXLP, DV/X 03697/11/17."

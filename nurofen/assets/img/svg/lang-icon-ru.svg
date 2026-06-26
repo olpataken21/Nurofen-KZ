@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 34" fill="none">
+  <defs>
+    <clipPath id="ru-flag-clip">
+      <circle cx="17" cy="17" r="17"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#ru-flag-clip)">
+    <rect width="34" height="11.34" fill="#FFFFFF"/>
+    <rect y="11.34" width="34" height="11.33" fill="#0039A6"/>
+    <rect y="22.67" width="34" height="11.33" fill="#D52B1E"/>
+  </g>
+</svg>
