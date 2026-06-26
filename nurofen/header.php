@@ -21,7 +21,7 @@
                 <?php $nurofen_lang_switcher = nurofen_get_language_switcher(); ?>
                 <li>
                     <a href="<?php echo esc_url($nurofen_lang_switcher['url'] ?? '#'); ?>">
-                        <span><?php echo esc_html($nurofen_lang_switcher['label'] ?? __('УЗ', NUROFEN_TD)); ?></span>
+                        <span><?php echo esc_html($nurofen_lang_switcher['label'] ?? __('КЗ', NUROFEN_TD)); ?></span>
                         <div class="icon-lang">
                             <img src="<?php echo esc_url($nurofen_lang_switcher['flag_url'] ?? get_template_directory_uri() . '/assets/img/png/lang-icon-KZ.png'); ?>"
                                 alt="<?php esc_attr_e('Язык', NUROFEN_TD); ?>">

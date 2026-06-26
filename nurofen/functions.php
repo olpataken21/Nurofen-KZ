@@ -83,7 +83,7 @@ function nurofen_get_page_permalink($slug)
 }
 
 /**
- * Slug рубрики с учётом перевода Polylang (nurofen → nurofen-uz и т.д.).
+ * Slug рубрики с учётом перевода Polylang (nurofen → nurofen-kk и т.д.).
  */
 function nurofen_get_translated_category_slug($slug)
 {
@@ -232,16 +232,16 @@ function nurofen_get_language_switcher_display($slug)
         ];
     }
 
-    if (str_starts_with($slug, 'uz')) {
+    if (str_starts_with($slug, 'kk') || str_starts_with($slug, 'kz')) {
         return [
-            'label' => __('УЗ', NUROFEN_TD),
-            'flag_url' => $assets_uri . '/png/lang-icon.png',
+            'label' => __('КЗ', NUROFEN_TD),
+            'flag_url' => $assets_uri . '/png/lang-icon-KZ.png',
         ];
     }
 
     return [
         'label' => strtoupper($slug),
-        'flag_url' => $assets_uri . '/png/lang-icon.png',
+        'flag_url' => $assets_uri . '/png/lang-icon-KZ.png',
     ];
 }
 
