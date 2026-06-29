@@ -45,12 +45,6 @@ document.addEventListener('DOMContentLoaded', function () {
             popup.style.display = 'none';
         });
     }
-
-    if (noAgreeBtn) {
-        noAgreeBtn.addEventListener('click', function () {
-            popup.style.display = 'none';
-        });
-    }
 });
 
 document.addEventListener('DOMContentLoaded', () => {

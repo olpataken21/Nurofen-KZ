@@ -1301,6 +1301,7 @@ footer .wrapper .information .menu-info .info-date .title {
   margin: 0;
   padding: 0;
   z-index: 100;
+  max-width: 670px;
 }
 .medication-for-kids .wrapper .medic-nurof-kids .instruction ul li {
   position: relative;
